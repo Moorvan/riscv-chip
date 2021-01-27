@@ -1,0 +1,10 @@
+[debug] Created transactional ClassFileManager with tempDir = C:\Documents\study\chisel-riscv\chisel-project\riscv-chip\target\scala-2.12\classes.bak
+[debug] About to delete class files:
+[debug] We backup class files:
+[debug] Registering generated classes:
+[debug] 	GCD.class
+[debug] 	DecoupledGcd.class
+[debug] 	GcdOutputBundle.class
+[debug] 	GCD$$anon$1.class
+[debug] 	GcdInputBundle.class
+[debug] Removing the temporary directory used for backing up class files: C:\Documents\study\chisel-riscv\chisel-project\riscv-chip\target\scala-2.12\classes.bak

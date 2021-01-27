@@ -1,0 +1,27 @@
+[debug] [zinc] IncrementalCompile -----------
+[debug] IncrementalCompile.incrementalCompile
+[debug] previous = Stamps for: 0 products, 0 sources, 0 libraries
+[debug] current source = Set(${BASE}/src/main/scala/gcd/DecoupledGCD.scala, ${BASE}/src/main/scala/gcd/GCD.scala)
+[debug] > initialChanges = InitialChanges(Changes(added = Set(${BASE}/src/main/scala/gcd/GCD.scala, ${BASE}/src/main/scala/gcd/DecoupledGCD.scala), removed = Set(), changed = Set(), unmodified = ...),Set(),Set(),API Changes: Set())
+[debug] Full compilation, no sources in previous analysis.
+[debug] all 2 sources are invalidated
+[debug] Initial set of included nodes: 
+[debug] Recompiling all sources: number of invalidated sources > 50.0% of all sources
+[debug] compilation cycle 1
+[info] compiling 2 Scala sources to C:\Documents\study\chisel-riscv\chisel-project\riscv-chip\target\scala-2.12\classes ...
+[debug] Getting org.scala-sbt:compiler-bridge_2.12:1.4.3:compile for Scala 2.12.12
+[debug] [zinc] Running cached compiler 41312ebd for Scala compiler version 2.12.12
+[debug] [zinc] The Scala compiler is invoked with:
+[debug] 	-Xsource:2.11
+[debug] 	-language:reflectiveCalls
+[debug] 	-deprecation
+[debug] 	-feature
+[debug] 	-Xcheckinit
+[debug] 	-Xplugin:C:\Users\YueChen\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\edu\berkeley\cs\chisel3-plugin_2.12.12\3.4.1\chisel3-plugin_2.12.12-3.4.1.jar
+[debug] 	-Xplugin:C:\Users\YueChen\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scalamacros\paradise_2.12.12\2.1.1\paradise_2.12.12-2.1.1.jar
+[debug] 	-bootclasspath
+[debug] 	C:\Users\YueChen\.sbt\boot\scala-2.12.12\lib\scala-library.jar
+[debug] 	-classpath
+[debug] 	C:\Documents\study\chisel-riscv\chisel-project\riscv-chip\target\scala-2.12\classes;C:\Users\YueChen\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\edu\berkeley\cs\chisel3_2.12\3.4.1\chisel3_2.12-3.4.1.jar;C:\Users\YueChen\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\edu\berkeley\cs\chisel3-macros_2.12\3.4.1\chisel3-macros_2.12-3.4.1.jar;C:\Users\YueChen\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\edu\berkeley\cs\chisel3-core_2.12\3.4.1\chisel3-core_2.12-3.4.1.jar;C:\Users\YueChen\.sbt\boot\scala-2.12.12\lib\scala-reflect.jar;C:\Users\YueChen\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\github\scopt\scopt_2.12\3.7.1\scopt_2.12-3.7.1.jar;C:\Users\YueChen\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\edu\berkeley\cs\firrtl_2.12\1.4.1\firrtl_2.12-1.4.1.jar;C:\Users\YueChen\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\antlr\antlr4-runtime\4.7.1\antlr4-runtime-4.7.1.jar;C:\Users\YueChen\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\google\protobuf\protobuf-java\3.9.0\protobuf-java-3.9.0.jar;C:\Users\YueChen\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\net\jcazevedo\moultingyaml_2.12\0.4.2\moultingyaml_2.12-0.4.2.jar;C:\Users\YueChen\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\json4s\json4s-native_2.12\3.6.9\json4s-native_2.12-3.6.9.jar;C:\Users\YueChen\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\apache\commons\commons-text\1.8\commons-text-1.8.jar;C:\Users\YueChen\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\github\nscala-time\nscala-time_2.12\2.22.0\nscala-time_2.12-2.22.0.jar;C:\Users\YueChen\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\yaml\snakeyaml\1.26\snakeyaml-1.26.jar;C:\Users\YueChen\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\json4s\json4s-core_2.12\3.6.9\json4s-core_2.12-3.6.9.jar;C:\Users\YueChen\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\apache\commons\commons-lang3\3.9\commons-lang3-3.9.jar;C:\Users\YueChen\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\joda-time\joda-time\2.10.1\joda-time-2.10.1.jar;C:\Users\YueChen\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\joda\joda-convert\2.2.0\joda-convert-2.2.0.jar;C:\Users\YueChen\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\json4s\json4s-ast_2.12\3.6.9\json4s-ast_2.12-3.6.9.jar;C:\Users\YueChen\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\json4s\json4s-scalap_2.12\3.6.9\json4s-scalap_2.12-3.6.9.jar;C:\Users\YueChen\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\thoughtworks\paranamer\paranamer\2.8\paranamer-2.8.jar
+[debug] Scala compilation took 7.70709 s
+[info] done compiling

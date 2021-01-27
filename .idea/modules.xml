@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/riscv-chip.iml" filepath="$PROJECT_DIR$/.idea/modules/riscv-chip.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/riscv-chip-build.iml" filepath="$PROJECT_DIR$/.idea/modules/riscv-chip-build.iml" />
+    </modules>
+  </component>
+</project>

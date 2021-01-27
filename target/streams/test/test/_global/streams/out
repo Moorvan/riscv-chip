@@ -1,0 +1,10 @@
+[debug] Running TaskDef(gcd.GCDSpec, org.scalatest.tools.Framework$$anon$1@d2f6f61, false, [SuiteSelector])
+[info] GCDSpec:
+[info] - Gcd should calculate proper greatest common denominator
+[info] Run completed in 9 seconds, 39 milliseconds.
+[info] Total number of tests run: 1
+[info] Suites: completed 1, aborted 0
+[info] Tests: succeeded 1, failed 0, canceled 0, ignored 0, pending 0
+[info] All tests passed.
+[debug] Passed tests:
+[debug] 	gcd.GCDSpec
